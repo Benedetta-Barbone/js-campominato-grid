@@ -23,7 +23,7 @@
 
 .active{
     display: inline-block;
-    background-color: rosybrown;
+    background-color: rgb(106, 215, 215);
     display: flex;
     justify-content: center;
     align-items: center;
