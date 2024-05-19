@@ -1,0 +1,21 @@
+
+
+.griglia {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(172, 140, 202);
+    color: black;
+    margin: 0 auto;
+}
+
+.cella{
+    width: calc((500px / 10) - 4px);
+    height: calc((500px / 10) - 4px);
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
